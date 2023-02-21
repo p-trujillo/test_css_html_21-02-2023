@@ -1,0 +1,39 @@
+html {
+    /* font: font-style (optional) font-weight font-size/line-height font-family; */
+    font: italic normal 1.5rem/2.0 'Roboto', sans-serif;
+    
+}
+
+h1, h2{
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+a:hover {
+    text-transform: capitalize;
+}
+
+.test-1{
+    background-color: brown;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+.test-2{
+    background-color: burlywood;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    outline: 5px solid yellow;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: aqua;
+    }
+}
