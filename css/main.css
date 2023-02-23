@@ -1,12 +1,27 @@
+*, ::before, ::after {
+    /*box-sizing: border-box;*/
+    margin: 0;
+	padding: 10px;
+	border: 2px solid black;
+  }
+
 html {
     /* font: font-style (optional) font-weight font-size/line-height font-family; */
-    font: italic normal 1.5rem/2.0 'Roboto', sans-serif;
+    font: normal normal 1.5rem/2.0 'Roboto', sans-serif;
     
 }
 
+a{
+    border: 0;
+}
+
 h1, h2{
-    text-transform: uppercase;
-    font-style: normal;
+    text-transform: uppercase; /*lowercase - capitalize*/
+    text-decoration: none; /*underline - line-through - overline*/
+    text-align: right; /*left - center - justify*/
+    /*text-shadow: horizontal-offset vertical-offset blur-radius colour;*/
+    /*font-style: normal;*/
+    color: blue;
 }
 
 ul, ol{
